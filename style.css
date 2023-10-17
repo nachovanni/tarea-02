@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 15%;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+header {
+    background: red;
+}
+
+h1 {
+    color: yellow;
+    font-size: 45px;
+    padding-left: 15%;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+    margin-left: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.galeria-imagenes {
+    display: flex;
+    width: 90%;
+    padding: 50px 0;
+    margin-top: 5%;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galeria-imagenes img {
+    width: 400px;
+    height: 300px;
+    margin: 5px 5px;
+
+}
+
+/*TEXTO CON IMGEN*/
+.seccion-parrafo {
+    background-color: rgb(92, 137, 188);
+    padding: 40px;
+    width: 60%;
+    display: flex;
+    margin: 60px auto;
+}
+
+.seccion-parrafo img {
+    width: 400px;
+    margin-left: 60px;
+    border-radius: 40px;
+
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+
+}
+
+.contenido2 p {
+
+    margin-top: 115px;
+    color: white;
+    font-size: 18px;
+
+
+}
+
+.boton {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 118%;
+
+
+}
